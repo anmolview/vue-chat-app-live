@@ -1,7 +1,7 @@
-import firebase from "firebase/app";
 import firestore from "firebase/firestore";
+import firebase from "firebase/app";
 
-var config = {
+const config = {
   apiKey: "AIzaSyBVR3G2yJroO8JkcTZKUa0bzKJHxntPAa8",
   authDomain: "vue-chat-b2608.firebaseapp.com",
   databaseURL: "https://vue-chat-b2608.firebaseio.com",
@@ -13,6 +13,6 @@ var config = {
 };
 
  const firebaseApp = firebase.initializeApp(config);
-  firebaseApp.firestore().settings({ timestampsInSnapshots: true});
+  firebaseApp.firestore().settings({ timestampsInSnapshots: true });
 
   export default firebaseApp.firestore();
