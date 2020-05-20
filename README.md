@@ -1,6 +1,6 @@
 # vue-chat
 
-This real chat app devloped using Vue.js & Firebase
+This real chat app developed using Vue.js & Firebase
 
 Below listed package require to run it
 1. npm install -g @vue/cli
